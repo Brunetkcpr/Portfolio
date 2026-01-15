@@ -22,6 +22,33 @@
       ]
     }
   ],
+  "redirects": [
+    {
+      "source": "/about(.*)",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/portfolio(.*)",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/services(.*)",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/contact(.*)",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/index.php/(.*)",
+      "destination": "/",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
